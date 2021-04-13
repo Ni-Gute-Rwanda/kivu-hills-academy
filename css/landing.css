@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0;
+    font-family:"Ubuntu", "raleway","Arial-Rounded", "Arial";
+    box-sizing:border-box
+}
+
+body, html {
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0;
+    width: 100%;
+}
+.header {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+    justify-content:center;
+}
+
+.branding {
+    width: 100%;
+}
+.branding  {
+    text-align: center;
+}
+.branding h1 {
+    padding: 20px;
+}
+.menu {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+.menu a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.menu a:hover {
+    border-bottom: 1px solid rgb(78, 76, 76);
+}
+
+.container {
+    height: 70px;
+    position: relative;
+    margin: 0 auto;
+}
+.container .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+    height: 100px;
+  }
+
+  #title {
+      text-align: center;
+      padding: 20px;
+      background-color: rgb(25, 82, 44);
+      color: white;
+  }
+  .grid-content {
+      display: grid;
+      grid-template-columns: 20% 20% 20%;
+      justify-content: center;
+      align-items: center;
+      grid-gap: 20px;
+      padding: 20px;
+  }
+
+  .grid-content img {
+      border: 1px solid black;
+  }
+  .trade-item {
+      border: 1px solid rgb(236, 235, 235);
+      padding: 10px;
+  }
+
+  form {
+      width: 70%;
+      padding: 10px;
+      box-shadow: 0 2.8px 2.2px rgba(27, 27, 27, 0.034), 0 6.7px 5.3px rgba(110, 110, 110, 0.048), 0 12.5px 10px rgba(117, 116, 116, 0.06),
+        0 22.3px 17.9px rgba(110, 110, 110, 0.072),
+        0 41.8px 33.4px rgba(110, 110, 110, 0.086),
+        0 100px 80px rgba(59, 59, 59, 0.12);
+    border-radius: 5px;
+  }
+  form input, textarea {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius:5px;
+  }
+  form button {
+      width: 100%;
+      background-color: green;
+      padding: 10px;
+      color: #fff;
+      border-radius: 5px;
+  }
+
+  .contact-grid-content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.footer {
+    background-color: rgba(35, 31, 37, 0.883);
+    color: #fff;
+    justify-content:center;
+}
+
+.footer-grids {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+.footer-grids h1 {
+    text-align: center;
+    align-items: top;
+}
+.footer-grids p {
+    padding: 20px;
+    font-size: 20px;
+}
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.social a {
+    width: 50px;
+    justify-content:center;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.links-list {
+    padding: 30px;
+}
+
+.copyright {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.main {
+    width: 100%;
+    padding: 15%;
+    text-align: center;
+    background-color:rgba(12, 10, 10, 0.801);
+    color: #fff;
+}
+.main h1 {
+    padding: 20px;
+}
+.main p {
+    font-size: 24px;
+}
+
+.main button {
+    width: 20%;
+    margin-top:20px;
+    padding: 20px;
+    background-color: rgb(11, 47, 11);
+    border: none;
+    outline: none;
+    border-radius:10px;
+    color: #fff;
+    font-size: 25px;
+    box-shadow: 0 2.8px 2.2px rgba(27, 27, 27, 0.034), 0 6.7px 5.3px rgba(110, 110, 110, 0.048), 0 12.5px 10px rgba(117, 116, 116, 0.06),
+        0 22.3px 17.9px rgba(110, 110, 110, 0.072),
+        0 41.8px 33.4px rgba(110, 110, 110, 0.086),
+        0 100px 80px rgba(59, 59, 59, 0.12);
+}
+.main button:hover {
+    box-shadow: 0 2.8px 2.2px rgba(27, 27, 27, 0.034), 0 6.7px 5.3px rgba(110, 110, 110, 0.048), 0 12.5px 10px rgba(117, 116, 116, 0.06),
+        0 22.3px 17.9px rgba(110, 110, 110, 0.072),
+        0 41.8px 33.4px rgba(110, 110, 110, 0.086),
+        0 100px 80px rgba(59, 59, 59, 0.12);
+    border: 2px solid green;
+}
